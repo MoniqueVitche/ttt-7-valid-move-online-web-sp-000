@@ -6,6 +6,6 @@ def valid_move?(board, position)
   end
 end
 
-def position_taken?(board, location)
+def position_taken?(board, position)
   !(position(board, location).nil? || position(board, location) == " ")
 end
