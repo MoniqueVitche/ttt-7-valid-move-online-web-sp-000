@@ -8,5 +8,5 @@ end
 
 def position_taken?(board, location)
   !(position(board, location).nil? || position(board, location) == " ")
-    false
+    nil
 end
