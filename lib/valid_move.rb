@@ -7,7 +7,5 @@ def valid_move?(board, position)
 end
 
 def position_taken?(board, location)
-  if !(position(board, location).nil? || position(board, location) == " ")
-    false 
-  end
+  (position(board, location).nil? || position(board, location) == " ")
 end
