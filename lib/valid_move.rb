@@ -9,5 +9,5 @@ def valid_move?(board, position)
 end
 
 def position_taken?(board, position.to_i-1)
-  !(position(board, location).nil? || position(board, location) == " ")
+  !(position(board, position.to_i-1).nil? || position(board, position.to_i-1) == " ")
 end
